@@ -2362,6 +2362,9 @@ f	filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.5));
 	.fn_cs_portfolio .portfolio_list ul li{width: 100%;}
 }
 @media(max-width: 600px){
+	body.resume-opened .deebo_fn__cv{
+		width:100%;
+	}
 	.tips_content .item{
 		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
