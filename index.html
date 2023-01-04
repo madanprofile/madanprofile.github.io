@@ -486,7 +486,7 @@
 					<div class="section_title">
 						<h3>Contact Me</h3>
 					</div>
-					<form class="contact_form" onsubmit="sendEmail(); reset(); return false;" autocomplete="off">
+					<form class="contact_form" action="https://madanprofile.github.io/" method="post" autocomplete="off" data-email="mmsonu67@gmail.com">
 
 						<!--
 							Don't remove below code in avoid to work contact form properly.
@@ -551,18 +551,15 @@
 <script>
 function sendEmail(){
 	Email.send({
-    Host : "smtp.gmail.com",
-    Username : "mmsonu67@gmail.com",
+    Host : "smtp.elasticemail.com",
+    Username : "username",
     Password : "password",
-    To : 'mmsonu67@gmail.com',
-    From :document.getElementById("email").value,
+    To : 'them@website.com',
+    From : "you@isp.com",
     Subject : "This is the subject",
-    Body : "Name : " + document.getElementById("name").value
-		+"<br> Email: " + document.getElementById("email").value
-		+"<br> Phone no: " + document.getElementById("phone").value
-		+"<br> Message: " + document.getElementById("message").value
+    Body : "And this is the body"
 }).then(
-  message => alert("Message Sent Succesfully")
+  message => alert(message)
 );
 }
 </script>
