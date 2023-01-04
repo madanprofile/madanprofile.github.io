@@ -548,7 +548,7 @@
 <script src="js/animated-headlines7dd3.js?ver=4"></script>
 <script src="js/waypoints7dd3.js?ver=4"></script>
 <script src="js/init7dd3.js?ver=4"></script>
-<script src="js/smtp.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <script>
 function sendEmail(){
 	Email.send({
@@ -561,7 +561,7 @@ function sendEmail(){
     Body : "Name : " + document.getElementById("name").value
 		+"<br> Email: " + document.getElementById("email").value
 		+"<br> Phone no: " + document.getElementById("phone").value
-		+"<br> Message: " + document.getElementById("email").value
+		+"<br> Message: " + document.getElementById("message").value
 }).then(
   message => alert("Message Sent Succesfully")
 );
