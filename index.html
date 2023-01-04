@@ -487,7 +487,7 @@
 					<div class="section_title">
 						<h3>Contact Me</h3>
 					</div>
-					<form class="contact_form" action="https://madanprofile.github.io/" method="post" autocomplete="off" data-email="mmsonu67@gmail.com">
+					<form class="contact_form" onsubmit="sendEmail(); reset(); return false;" autocomplete="off">
 
 						<!--
 							Don't remove below code in avoid to work contact form properly.
@@ -542,16 +542,32 @@
 </div>
 
 <!-- Scripts -->
-<script type="text/javascript" src="js/jquery7dd3.js?ver=4"></script>
-<script type="text/javascript" src="js/isotope.js"></script>
-<script type="text/javascript" src="js/magnific.js"></script>
-<script type="text/javascript" src="js/animated-headlines7dd3.js?ver=4"></script>
-<script type="text/javascript" src="js/waypoints7dd3.js?ver=4"></script>
-<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
-<script type="text/javascript" src="js/init7dd3.js?ver=4"></script>
+<script src="js/jquery7dd3.js?ver=4"></script>
+<script src="js/isotope.js"></script>
+<script src="js/magnific.js"></script>
+<script src="js/animated-headlines7dd3.js?ver=4"></script>
+<script src="js/waypoints7dd3.js?ver=4"></script>
+<script src="js/init7dd3.js?ver=4"></script>
+<script src="js/smtp.js"></script>
+<script>
+function sendEmail(){
+	Email.send({
+    Host : "smtp.gmail.com",
+    Username : "mmsonu67@gmail.com",
+    Password : "password",
+    To : 'mmsonu67@gmail.com',
+    From :document.getElementById("email").value,
+    Subject : "This is the subject",
+    Body : "Name : " + document.getElementById("name").value
+		+"<br> Email: " + document.getElementById("email").value
+		+"<br> Phone no: " + document.getElementById("phone").value
+		+"<br> Message: " + document.getElementById("email").value
+}).then(
+  message => alert("Message Sent Succesfully")
+);
+}
+</script>
 <!-- /Scripts -->
 
-</body>
-
-<!-- Mirrored from frenify.net/envato/frenify/html/deeebo/2/index-light.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 Dec 2022 06:58:24 GMT -->
+</body> 
 </html>
