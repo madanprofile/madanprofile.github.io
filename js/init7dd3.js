@@ -168,12 +168,12 @@ $.fn.DeeboProgressIsInViewport = function(content) {
 		},
 		
 		contactForm: function(){
-			$('#send_message').on('click', function(){
+			$('.send_message').on('click', function(){
 				var form		= $('.section_contact .contact_form');
-				var name 		= $("#name").val();
-				var email 		= $("#email").val();
-				var message 	= $("#message").val();
-				var phone 		= $("#phone").val();
+				var name 		= $(".name").val();
+				var email 		= $(".email").val();
+				var message 	= $(".message").val();
+				var phone 		= $(".phone").val();
 				var spanSuccess	= form.find(".success");
 				var success     = spanSuccess.data('success');
 				var emailto     = form.data('email');
