@@ -459,3 +459,13 @@ $.fn.DeeboProgressIsInViewport = function(content) {
   	
 })(jQuery);
 
+$(document).ready(function(){
+	//$(".ckeditor a") .attr('target','_blank');  common/76661
+	if(window.location.href.match('https://madanprofile.github.io/#contact'){
+        
+    }
+	else
+	{
+		alert("Hello! I am an alert box!!");
+	}
+});
