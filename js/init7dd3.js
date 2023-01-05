@@ -461,7 +461,7 @@ $.fn.DeeboProgressIsInViewport = function(content) {
 
 $(document).ready(function(){
 	//$(".ckeditor a") .attr('target','_blank');  common/76661
-	if(window.location.href.match('https://madanprofile.github.io/#contact'){
+	if(window.location.href.match(''){
         
     }
 	else
