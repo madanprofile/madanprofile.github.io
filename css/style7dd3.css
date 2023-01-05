@@ -1990,7 +1990,7 @@ f	filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.5));
 .section_contact .item.half{
 	width: 50%;
 }
-.section_contact .contact_form a{
+.section_contact .contact_form button{
 	display: block;
 	line-height: 26px;
 	white-space: nowrap;
@@ -2005,6 +2005,8 @@ f	filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.5));
 	text-decoration: none;
 	border: 2px solid #393939;
 	border-radius: 50px;
+	width:100%;
+	color:#000;
 }
 .section_contact .contact_form a:hover{
 	border-color: var(--mc);
