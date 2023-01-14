@@ -2520,8 +2520,6 @@ f	filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.5));
     margin: 10% auto;
     box-shadow: inset 0px 0px 0px #1d7539;
     animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
-    border: 5px solid #1d7539;
-    background: #1d7539;
 }
 .checkmark__check {
   transform-origin: 50% 50%;
