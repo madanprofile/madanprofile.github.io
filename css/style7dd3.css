@@ -2462,7 +2462,7 @@ f	filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.5));
 }
 
 .popup-bg{
-	background:rgba(0, 0, 0, 0.99);
+	background:rgba(0, 0, 0, 0.7);
 	position:fixed;
 	height:100%;
 	width:100%;
@@ -2475,13 +2475,12 @@ f	filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.5));
 	transform:translate(-50%,-50%);
 	color:#000;
 	background:#fff;
-	width:100%;
+	width:90%;
 	max-width:400px;
 	border-radius:5px;
 	text-align:center;
 	padding:10px;
-	padding-bottom:50px;
-	margin:10px;
+	padding-bottom:50px; 
 }
 .popup h4{
 	color:green;
