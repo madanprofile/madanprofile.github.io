@@ -1,21 +1,21 @@
-var dataCacheName = 'mmsonu_v34';
-var cacheName = 'mmsonu_v34';
-caches.delete('mmsonu_v33');
+var dataCacheName = 'mmsonu_v1';
+var cacheName = 'mmsonu_v1';
+caches.delete('mmsonu_v0');
 var filesToCache = [
   '/',
  "./fonts",
- "./images",
- "./images/icons",
- "./images/icons/icon-72x72.png",
- "./images/icons/icon-96x96.png",
- "./images/icons/icon-128x128.png",
- "./images/icons/icon-144x144.png",
- "./images/icons/icon-152x152.png",
- "./images/icons/icon-192x192.png",
- "./images/icons/icon-256x256.png",
- "./images/icons/icon-384x384.png",
- "./images/icons/icon-512x512.png",
- "./index.php",
+ "./img",
+ "./img/icons",
+ "./img/icons/icon-72x72.png",
+ "./img/icons/icon-96x96.png",
+ "./img/icons/icon-128x128.png",
+ "./img/icons/icon-144x144.png",
+ "./img/icons/icon-152x152.png",
+ "./img/icons/icon-192x192.png",
+ "./img/icons/icon-256x256.png",
+ "./img/icons/icon-384x384.png",
+ "./img/icons/icon-512x512.png",
+ "./index.html",  "./portfolio.html",  "./contact.html",  "./index.php",
  "./graphic.php",
  "./portfolio.php",
  "./portfolio2.php",
