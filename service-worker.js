@@ -1,6 +1,6 @@
-var dataCacheName = 'mmsonu_v2';
-var cacheName = 'mmsonu_v2';
-caches.delete('mmsonu_v1');
+var dataCacheName = 'mmsonu_v3';
+var cacheName = 'mmsonu_v3';
+caches.delete('mmsonu_v2');
 var filesToCache = [
   '/',
  "./fonts",
