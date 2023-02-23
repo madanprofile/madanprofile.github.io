@@ -1121,6 +1121,7 @@ f	filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.5));
 	position: relative;
 	border-radius: 12px;
 	overflow: hidden;
+	border: 2px solid #eee;
 }
 .fn_cs_portfolio .inner:hover .mobile_title{
 	opacity: 1;
