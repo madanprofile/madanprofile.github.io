@@ -2463,6 +2463,13 @@ f	filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.5));
 	.right_container{
 		padding: 0 30px;
 	}
+	.section_header .content{
+		min-height:auto;
+	}
+	.fn_cs_info_items li{
+		padding:5px;
+		font-size:18px;
+	}
 }
 
 
